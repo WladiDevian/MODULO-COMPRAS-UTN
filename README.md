@@ -4,3 +4,4 @@ Proyecto - Módulo Compras UTN en el cuál estaremos desarrollando el proyecto d
 Integrantes:
 Franklin Vallejo
 Bryan Cachimuel
+Kevin Endara
