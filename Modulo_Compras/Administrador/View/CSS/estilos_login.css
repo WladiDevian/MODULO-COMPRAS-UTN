@@ -1,0 +1,230 @@
+/*body{
+    margin: 0 auto;
+    background-image:  url("../..//imagenes/blanco3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+h1,h4{
+    color:  white;
+    text-align: center;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(52,73,94,0.7); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom:  20px;
+
+}
+
+.container img {
+    width: 250px;
+    height: 250px;
+    margin-top:  -130px;
+    margin-bottom:  30px;
+}
+
+input{
+    height: 45px;
+    width:  300px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: #fff;
+    padding-left: 30px;
+    background-color: rgba(52,73,94,0.3); 
+    color: white;
+}
+.container a{
+    color: white;
+}
+
+.container a:hover{
+    color: lightcoral;
+}
+
+.container2{
+    width: 500px;
+    height: 650px;
+    text-align: center;
+    background-color: rgba(52,73,94,0.7); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom:  20px;
+
+}
+
+.containerPaciente{
+    width: 700px;
+    height: 650px;
+    text-align: right;
+    background-color: rgba(52,73,94,0.7); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom:  20px;
+
+}
+
+.container2 img {
+    width: 200px;
+    height: 200px;
+    margin-top:  -30px;
+    margin-bottom:  10px;
+}
+
+footer .define {
+            position: relative;
+             Altura total del footer en px con valor negativo 
+            margin-top: 0px;
+             Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            
+            height: 40px;
+            padding:5px 0px;
+            clear: both;
+            background: transparent;
+            text-align: center;
+            color: black;
+        }
+
+        .container3{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(52,73,94,0.7); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom:  20px;
+
+}
+
+.container3 img {
+    width: 200px;
+    height: 200px;
+    margin-top:  -80px;
+    margin-bottom:  30px;
+}*/
+
+
+body{
+    margin: 0 auto;
+    background-image:  url("../..//imagenes/tt.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+h1,h4{
+    color:white;
+    text-align:center;
+}
+
+.container{
+    
+     width: 400px;
+    height: 350px;
+    text-align: center;
+    background-color: rgba(1,1,94,0.1); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 10px;   
+    margin-bottom:  20px;
+
+}
+
+.container img {
+    width: 250px;
+    height: 250px;
+    margin-top:  -130px;
+    margin-bottom:  30px;
+}
+
+input{
+    height: 45px;
+    width:  400px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: #fff;
+    padding-left: 30px;
+    background-color: rgba(52,73,94,0.3); 
+    color: white;
+}
+.container a{
+    color: blue;
+}
+
+.container a:hover{
+    color: dimgrey;
+}
+
+.container{
+/*    PARA CAMBIAR EL TAMAÑO DE EL CUADRO DE LOS DATOS DEL LOGIN GENERAL*/
+    width: 500px;
+    height: 460px;
+    text-align: center;
+    background-color: rgba(1,1,94,0.1); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 10px;   
+    margin-bottom:  20px;
+
+}
+
+.containerPaciente{
+    width: 700px;
+    height: 650px;
+    text-align: right;
+    background-color: rgba(52,73,94,0.7); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom:  20px;
+
+}
+
+.container2 img {
+    width: 170px;
+    height: 170px;
+    margin-top:  -80px;
+    margin-bottom:  10px;
+}
+
+footer .define {
+            position: relative;
+            /* Altura total del footer en px con valor negativo */
+            margin-top: 0px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            height: 40px;
+            padding:5px 0px;
+            clear: both;
+            background: transparent;
+            text-align: center;
+            color: black;
+        }
+
+        .container3{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(52,73,94,0.7); 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom:  20px;
+
+}
+
+.container3 img {
+    width: 200px;
+    height: 200px;
+    margin-top:  -80px;
+    margin-bottom:  30px;
+}

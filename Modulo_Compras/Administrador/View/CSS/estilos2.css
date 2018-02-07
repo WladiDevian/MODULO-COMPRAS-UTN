@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:  url("../..//imagenes/blanco4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+
+.menu_bar2{
+    display: none;
+}
+header{
+    width: 100%;
+}
+
+header nav{
+    background: #2b669a;
+    z-index: 1000;
+    max-width: 1000px;
+/*    para cambiar el tamaño de la barra*/
+    width: 75%;      
+    margin: 10px auto;
+
+}
+
+header nav ul{
+    list-style: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    position: relative;
+
+}
+header nav ul li:hover{
+    background: yellowgreen;
+
+}
+
+header nav ul li a{
+    /*     color de letras navegacion*/
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav ul li a span{
+    margin-right: 10px;   
+}
+
+header nav ul li:hover .children2{
+    display: block;
+}
+header nav ul li .children2{
+    display: none;
+    background: #2b669a;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav ul li .children2 li{
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .children2 li a{
+    display: block;
+}
+
+header nav ul li .children2 li a span{
+    float: right;
+    position: relative;
+    top:3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+header nav ul li .caret2{
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        padding-top: 80px;
+    }
+}
+
+footer {
+            position: relative;
+            /* Altura total del footer en px con valor negativo */
+            margin-top: 0px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            height: 40px;
+            padding:5px 0px;
+            clear: both;
+            background: transparent;
+            text-align: center;
+            color: #fff;
+        }
